@@ -1,0 +1,83 @@
+/* posotion property
+button{
+    background-color: aqua;
+    border-radius: 50px;
+    width:70px;
+    padding: 10px;
+}
+.box{
+    
+    height: 650px;
+    width: 100%;
+    position: relative;
+}
+.bg-wrapper{
+    position: absolute;
+    left: 100px;
+    top: 150px;
+    color: white;
+    font-size: 20px;
+    width: 600px;
+}
+
+.cover{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(red, green, blue, alpha);
+    position: absolute;
+}
+.image{height: 100%;
+    
+} */
+.bg-image{
+    background-image: url(../images/image.jpg);
+    width: 100%;
+    height: 430px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    fill-opacity: calc;
+    
+}
+.bg-wrapper{
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    font-size: 20px;
+    width: 600px;
+}
+.title{
+    color: #ffffff;
+    font-size: 40px;
+    width: 80px;
+    border-radius: 50px;
+    text-align: center;
+    /* transition-property: all;
+    transition-delay: 0.3s;
+    transition-duration: 0.3s;
+    transition-timing-function: linear; */
+    transition: all 0.3s linear 0.3s ;
+
+}
+.title:hover{
+    color: aqua;
+    background: pink;
+     
+}
+.animation-block{
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    position: absolute;
+    animation-name: cube;
+}
+@keyframes cube {
+    0% {top: 0 }
+    100%{top: 200px}
+}
+button{
+    background-color: aqua;
+    border-radius: 50px;
+    width:70px;
+    padding: 10px;
+}
